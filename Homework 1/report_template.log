@@ -1,9 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.21)  17 NOV 2015 23:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.21)  18 NOV 2015 00:13
 entering extended mode
-**hwlatex.tex
-
-("D:\word_master\S3P2\EL2620 Nonlinear Control\Nonlinear_homework\HW1tex\hwlate
-x.tex"
+**report_template.tex
+("D:\word_master\S3P2\EL2620 Nonlinear Control\Homework 1\report_template.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -122,9 +120,6 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\cleveref\cleveref.sty"
-Package: cleveref 2013/12/28 v0.19 Intelligent cross-referencing
-)
 ("D:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
@@ -171,57 +166,38 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count101
 )
-("D:\word_master\S3P2\EL2620 Nonlinear Control\Nonlinear_homework\HW1tex\hwlate
-x.aux"
+("D:\word_master\S3P2\EL2620 Nonlinear Control\Homework 1\report_template.aux"
 
 LaTeX Warning: Label `eqn:PPSystem' multiply defined.
-
-
-LaTeX Warning: Label `eqn:PPSystem@cref' multiply defined.
 
 
 LaTeX Warning: Label `eqn:PPSystem1' multiply defined.
 
 
-LaTeX Warning: Label `eqn:PPSystem1@cref' multiply defined.
-
-
 LaTeX Warning: Label `eqn:PPSystem2' multiply defined.
 
 
-LaTeX Warning: Label `eqn:PPSystem2@cref' multiply defined.
+LaTeX Warning: Label `fig:pplane2' multiply defined.
 
 
 LaTeX Warning: Label `fig:pplane2' multiply defined.
 
 
-LaTeX Warning: Label `fig:pplane2@cref' multiply defined.
-
-
 LaTeX Warning: Label `fig:pplane2' multiply defined.
-
-
-LaTeX Warning: Label `fig:pplane2@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:pplane2' multiply defined.
-
-
-LaTeX Warning: Label `fig:pplane2@cref' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
  ("D:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count102
@@ -236,69 +212,83 @@ LaTeX Font Info:    ... okay on input line 27.
 \makeMPintoPDFobject=\count107
 \everyMPtoPDFconversion=\toks23
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 31.
+LaTeX Font Info:    Try loading font information for U+msa on input line 33.
  ("D:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 31.
+LaTeX Font Info:    Try loading font information for U+msb on input line 33.
 
 ("D:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 67.
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-<-2-1.png, id=19, 493.0922pt x 461.47406pt>
+("D:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
+
+Underfull \hbox (badness 1342) in paragraph at lines 80--81
+\OT1/cmr/m/n/10 The given pop-u-la-tion model will be an-a-lyzed
+ []
+
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+] [2] [3]
+Underfull \hbox (badness 1902) in paragraph at lines 341--343
+\OT1/cmr/m/n/10 con-tain $(1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1)$ and $(0\OML/
+cmm/m/it/10 ; \OT1/cmr/m/n/10 0)$ is a closed and
+ []
+
+[4] <-2-1.png, id=28, 493.0922pt x 461.47406pt>
 File: -2-1.png Graphic file (type png)
  <use -2-1.png>
-Package pdftex.def Info: -2-1.png used on input line 269.
+Package pdftex.def Info: -2-1.png used on input line 377.
 (pdftex.def)             Requested size: 406.8136pt x 225.99751pt.
 
-<-21.png, id=21, 493.0922pt x 460.72125pt>
+<-21.png, id=30, 493.0922pt x 460.72125pt>
 File: -21.png Graphic file (type png)
  <use -21.png>
-Package pdftex.def Info: -21.png used on input line 277.
+Package pdftex.def Info: -21.png used on input line 385.
 (pdftex.def)             Requested size: 406.8136pt x 225.9944pt.
 
-<2-1.png, id=22, 493.0922pt x 458.46281pt>
+<2-1.png, id=31, 493.0922pt x 458.46281pt>
 File: 2-1.png Graphic file (type png)
  <use 2-1.png>
-Package pdftex.def Info: 2-1.png used on input line 285.
+Package pdftex.def Info: 2-1.png used on input line 393.
 (pdftex.def)             Requested size: 406.8136pt x 225.99889pt.
 
-<21.png, id=23, 493.845pt x 458.46281pt>
+<21.png, id=32, 493.845pt x 458.46281pt>
 File: 21.png Graphic file (type png)
  <use 21.png>
-Package pdftex.def Info: 21.png used on input line 293.
+Package pdftex.def Info: 21.png used on input line 401.
 (pdftex.def)             Requested size: 406.79416pt x 225.99889pt.
 
-<p3.png, id=24, 491.58656pt x 458.46281pt>
+<p3.png, id=33, 491.58656pt x 458.46281pt>
 File: p3.png Graphic file (type png)
  <use p3.png>
-Package pdftex.def Info: p3.png used on input line 301.
+Package pdftex.def Info: p3.png used on input line 409.
 (pdftex.def)             Requested size: 406.80908pt x 225.99889pt.
- [3
-
-] [4 <D:/word_master/S3P2/EL2620 Nonlinear Control/Nonlinear_homework/HW1tex/-2
--1.png> <D:/word_master/S3P2/EL2620 Nonlinear Control/Nonlinear_homework/HW1tex
-/-21.png>] [5 <D:/word_master/S3P2/EL2620 Nonlinear Control/Nonlinear_homework/
-HW1tex/2-1.png> <D:/word_master/S3P2/EL2620 Nonlinear Control/Nonlinear_homewor
-k/HW1tex/21.png>]
-[6 <D:/word_master/S3P2/EL2620 Nonlinear Control/Nonlinear_homework/HW1tex/p3.p
-ng>]
-("D:\word_master\S3P2\EL2620 Nonlinear Control\Nonlinear_homework\HW1tex\hwlate
-x.aux")
+ [5 <D:/word_master/S3P2/EL2620 Nonlinear Control/Homework 1/-2-1.png> <D:/word
+_master/S3P2/EL2620 Nonlinear Control/Homework 1/-21.png>] [6 <D:/word_master/S
+3P2/EL2620 Nonlinear Control/Homework 1/2-1.png> <D:/word_master/S3P2/EL2620 No
+nlinear Control/Homework 1/21.png>] [7 <D:/word_master/S3P2/EL2620 Nonlinear Co
+ntrol/Homework 1/p3.png>] ("D:\word_master\S3P2\EL2620 Nonlinear Control\Homewo
+rk 1\report_template.aux")
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4215 strings out of 493921
- 66418 string characters out of 3147267
- 152686 words of memory out of 3000000
- 7486 multiletter control sequences out of 15000+200000
- 7644 words of font info for 30 fonts, out of 3000000 for 9000
+ 2783 strings out of 493921
+ 34361 string characters out of 3147267
+ 102636 words of memory out of 3000000
+ 6046 multiletter control sequences out of 15000+200000
+ 11983 words of font info for 47 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,9n,28p,647b,265s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,9n,28p,826b,267s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><D:/Program Files/MiKTe
@@ -306,13 +296,16 @@ X 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmmi7.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmr10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr5.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pf
-b><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on hwlatex.pdf (6 pages, 256698 bytes).
+cm/cmr12.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.
+pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmtt10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/symbols/msam10.pfb>
+Output written on report_template.pdf (7 pages, 304022 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
+ 97 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
