@@ -102,10 +102,11 @@ The eigenvalues of the Jacobian matrix are given by the characteristic equation
     \det(\lambda I - A) = 0.
 \end{equation*}
 
-\begin{itemize}
-\item $(c,e)=(-2,-1)$
+\subsection*{Case 1: $(c,e)=(-2,-1)$}
 %(-2,-1)
-When $(c,e)=(-2,-1)$, the Jacobian matrix can be written as
+\begin{enumerate}
+\item Figure
+\item When $(c,e)=(-2,-1)$, the Jacobian matrix can be written as
 \begin{equation*}
     \frac{\partial\textbf{f}}{\partial \textbf{x}}(\textbf{x}) =
     \left[\begin{array}{cc}
@@ -143,9 +144,10 @@ The characteristic equation of the system linearized around \mbox{(3,0)} is
 $\lambda^2 +4 \lambda + 3 = 0,$ which gives the eigenvalues $\lambda_1 = -1$ and $\lambda_2 = -3$. The equilibrium $(3,0)$ is a stable node.
 The characteristic equation of the system linearized around \mbox{(1,1)} is $\lambda^2 +2 \lambda - 1 = 0,$ which gives the eigenvalues $\lambda_1 = \sqrt{2} -1 \approx 0.414$ and $\lambda_2 = -1 -\sqrt{2} \approx -2.414$. The equilibrium $(1,1)$ is a saddle point.
 
-In this case, the relationship between $x$ and $y$ is competitive. This implies that one species would always tend to become dominate and the other would become extinct based on the initial ratio. There is one point where two species could co-exist but it$'$s not stable since the equilibrium could be broken easily as long as small number disturbance happens.  
+\item In this case, the relationship between $x$ and $y$ is competitive. This implies that one species would always tend to become dominate and the other would become extinct based on the initial ratio. There is one point where two species could co-exist but it$'$s not stable since the equilibrium could be broken easily as long as small number disturbance happens.  
+\end{enumerate}
 
-\item $(c,e)=(-2,1)$
+\subsection*{Case 2: $(c,e)=(-2,1)$}
 %(-2,1)
 When $(c,e)=(-2,1)$, the Jacobian matrix can be written as
 \begin{equation*}
@@ -182,7 +184,7 @@ The characteristic equation of the system linearized around \mbox{(3,0)} is $\la
 
 In this case, the relationship between the two species is $y$ preying on $x$. This implies that $y$ would increase if the relative amount of $x$ is huge and vice versa.
 
-\item $(c,e)=(2,-1)$
+\subsection*{Case 3: $(c,e)=(2,-1)$}
 %(2,-1)
 When $(c,e)=(2,-1)$, the Jacobian matrix can be written as
 \begin{equation*}
@@ -221,7 +223,7 @@ $\lambda^2 +4 \lambda + 3 = 0,$ which gives the eigenvalues $\lambda_1 = -3$ and
 
 In this case, the relationship between the two species is $x$ preying on $y$. This implies that $x$ tends to increase if the relative amount of $y$ is huge and vice versa.   
 
-\item $(c,e)=(2,1)$ 
+\subsection*{Case 4: $(c,e)=(2,1)$}
 %(2,1)
 When $(c,e)=(2,1)$, the Jacobian matrix can be written as
 \begin{equation*}
@@ -259,7 +261,6 @@ The characteristic equation of the system linearized around \mbox{(3,0)} is
 $\lambda^2 -2 \lambda - 15 = 0,$ which gives the eigenvalues $\lambda_1 = -3$ and $\lambda_2 = 5$. The equilibrium $(3,0)$ is a saddle point.
 
 In this case, the relationship between the two species is symbiotic. This implies that one species would increase if the other one increases. 
-\end{itemize}
 
 \section*{Problem 3 - System analysis for one specific case}
 \label{sec:prob3} 

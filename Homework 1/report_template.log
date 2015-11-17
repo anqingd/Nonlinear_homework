@@ -1,7 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.21)  18 NOV 2015 00:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.21)  18 NOV 2015 00:27
 entering extended mode
 **report_template.tex
-("D:\word_master\S3P2\EL2620 Nonlinear Control\Homework 1\report_template.tex"
+
+("D:\word_master\S3P2\EL2620 Nonlinear Control\Nonlinear_homework\Homework 1\re
+port_template.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -166,7 +168,8 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count101
 )
-("D:\word_master\S3P2\EL2620 Nonlinear Control\Homework 1\report_template.aux"
+("D:\word_master\S3P2\EL2620 Nonlinear Control\Nonlinear_homework\Homework 1\re
+port_template.aux"
 
 LaTeX Warning: Label `eqn:PPSystem' multiply defined.
 
@@ -237,56 +240,59 @@ Underfull \hbox (badness 1342) in paragraph at lines 80--81
 
 
 ] [2] [3]
-Underfull \hbox (badness 1902) in paragraph at lines 341--343
+Underfull \hbox (badness 1902) in paragraph at lines 342--344
 \OT1/cmr/m/n/10 con-tain $(1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1)$ and $(0\OML/
 cmm/m/it/10 ; \OT1/cmr/m/n/10 0)$ is a closed and
  []
 
-[4] <-2-1.png, id=28, 493.0922pt x 461.47406pt>
+[4] <-2-1.png, id=29, 493.0922pt x 461.47406pt>
 File: -2-1.png Graphic file (type png)
  <use -2-1.png>
-Package pdftex.def Info: -2-1.png used on input line 377.
+Package pdftex.def Info: -2-1.png used on input line 378.
 (pdftex.def)             Requested size: 406.8136pt x 225.99751pt.
 
-<-21.png, id=30, 493.0922pt x 460.72125pt>
+<-21.png, id=31, 493.0922pt x 460.72125pt>
 File: -21.png Graphic file (type png)
  <use -21.png>
-Package pdftex.def Info: -21.png used on input line 385.
+Package pdftex.def Info: -21.png used on input line 386.
 (pdftex.def)             Requested size: 406.8136pt x 225.9944pt.
 
-<2-1.png, id=31, 493.0922pt x 458.46281pt>
+<2-1.png, id=32, 493.0922pt x 458.46281pt>
 File: 2-1.png Graphic file (type png)
  <use 2-1.png>
-Package pdftex.def Info: 2-1.png used on input line 393.
+Package pdftex.def Info: 2-1.png used on input line 394.
 (pdftex.def)             Requested size: 406.8136pt x 225.99889pt.
 
-<21.png, id=32, 493.845pt x 458.46281pt>
+<21.png, id=33, 493.845pt x 458.46281pt>
 File: 21.png Graphic file (type png)
  <use 21.png>
-Package pdftex.def Info: 21.png used on input line 401.
+Package pdftex.def Info: 21.png used on input line 402.
 (pdftex.def)             Requested size: 406.79416pt x 225.99889pt.
 
-<p3.png, id=33, 491.58656pt x 458.46281pt>
+<p3.png, id=34, 491.58656pt x 458.46281pt>
 File: p3.png Graphic file (type png)
  <use p3.png>
-Package pdftex.def Info: p3.png used on input line 409.
+Package pdftex.def Info: p3.png used on input line 410.
 (pdftex.def)             Requested size: 406.80908pt x 225.99889pt.
- [5 <D:/word_master/S3P2/EL2620 Nonlinear Control/Homework 1/-2-1.png> <D:/word
-_master/S3P2/EL2620 Nonlinear Control/Homework 1/-21.png>] [6 <D:/word_master/S
-3P2/EL2620 Nonlinear Control/Homework 1/2-1.png> <D:/word_master/S3P2/EL2620 No
-nlinear Control/Homework 1/21.png>] [7 <D:/word_master/S3P2/EL2620 Nonlinear Co
-ntrol/Homework 1/p3.png>] ("D:\word_master\S3P2\EL2620 Nonlinear Control\Homewo
-rk 1\report_template.aux")
+ [5 <D:/word_master/S3P2/EL2620 Nonlinear Control/Nonlinear_homework/Homework 1
+/-2-1.png> <D:/word_master/S3P2/EL2620 Nonlinear Control/Nonlinear_homework/Hom
+ework 1/-21.png>]
+[6 <D:/word_master/S3P2/EL2620 Nonlinear Control/Nonlinear_homework/Homework 1/
+2-1.png> <D:/word_master/S3P2/EL2620 Nonlinear Control/Nonlinear_homework/Homew
+ork 1/21.png>] [7 <D:/word_master/S3P2/EL2620 Nonlinear Control/Nonlinear_homew
+ork/Homework 1/p3.png>]
+("D:\word_master\S3P2\EL2620 Nonlinear Control\Nonlinear_homework\Homework 1\re
+port_template.aux")
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2783 strings out of 493921
- 34361 string characters out of 3147267
+ 2784 strings out of 493921
+ 34509 string characters out of 3147267
  102636 words of memory out of 3000000
- 6046 multiletter control sequences out of 15000+200000
- 11983 words of font info for 47 fonts, out of 3000000 for 9000
+ 6047 multiletter control sequences out of 15000+200000
+ 12290 words of font info for 48 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  27i,9n,28p,826b,267s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Pr
@@ -294,18 +300,19 @@ ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><D:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi7.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr12.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.
-pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmtt10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/symbols/msam10.pfb>
-Output written on report_template.pdf (7 pages, 304022 bytes).
+1/public/amsfonts/cm/cmmi12.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi7.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12
+.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmsy7.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmtt10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/symbols/msam10.pfb>
+Output written on report_template.pdf (7 pages, 313627 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
+ 101 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
