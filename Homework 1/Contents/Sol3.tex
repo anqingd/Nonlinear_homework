@@ -1,6 +1,6 @@
 \begin{enumerate}
 
-\item Figure
+\item The phase portrait is shown as figure ~\ref{fig:pplane5}.
 \item When 
 $a=e=1$, $b=f=0$, and $c=d=-1$,
   we can obtain the differential equations as \eqref{eqn:PPSystem1} and \eqref{eqn:PPSystem2} 
@@ -10,30 +10,6 @@ $a=e=1$, $b=f=0$, and $c=d=-1$,
     \dot{y} = y(-1+x) \label{eqn:PPSystem2}
 \end{align}
 \end{subequations}
-The Jacobian matrix is defined as $A = \left. \frac{\partial\textbf{f}}{\partial \textbf{x}}(\textbf{x}) \right|_{\textbf{x}=\textbf{x}_0}$. The Jacobian matrix is calculated to be
-\begin{equation*}
-    \frac{\partial\textbf{f}}{\partial \textbf{x}}(\textbf{x}) =
-    \left[\begin{array}{cc}
-    1-y & -x \\
-    y & -1+x
-    \end{array}\right],
-\end{equation*}
-By calculating $(x^*,y^*)$, the system has two equilibrium points $(0,0)$ and $(1,1)$.The Jocabian matrix in this case is
-\begin{equation*}
-    A_{(0,0)} =
-    \left[\begin{array}{cc}
-    1 & 0 \\
-    0 & -1
-    \end{array}\right], \; A_{(1,1)} =
-    \left[\begin{array}{cc}
-    0 & -1 \\
-    1 & 0
-    \end{array}\right],   
-    \end{equation*}
-The characteristic equation of the system linearized around \mbox{(0,0)} is
-$$\lambda^2 -1 = 0,$$ which gives the eigenvalues $\lambda_{1,2} = \pm 1$. The equilibrium $(0,0)$ is a saddle point. 
-The characteristic equation of the system linearized around \mbox{(1,1)} is
-$$\lambda^2 +1 = 0,$$ which gives the eigenvalues $\lambda_{1,2} = \pm j$. The equilibrium $(1,1)$ is a non-hyperbolic point so the stability needs to be checked with other methods. From the plot we can infer that this equilibrium is a stable point. 
-\item ?????????Analysis
- 
+By calculating $(x^*,y^*)$, the system has two equilibrium points $(0,0)$ and $(1,1)$.The Jocabian matrix can be derived in a similar way.The eigenvalues are $\lambda_{1,2} = \pm 1$ and $\lambda_{1,2} = \pm j$ respectively. It can be derived that the equilibrium $(0,0)$ is a saddle point.While for the equilibrium $(1,1)$, since it is a non-hyperbolic point so the stability needs to be checked with other methods. From figure ~\ref{fig:pplane5} we can infer that this equilibrium is a stable point. 
+\item The physical species model in this case could be $y$ preying $x$ and $x$ feeding grass which is infinite. When $x$ is comparatively big, $y$ would increase to control the population of $x$; when $y$ is comparatively big, $y$ would decrease due to the intraspecies competition and lack of food, which would promote the breeding of $x$. So the population would stay stable under this natural negative feedback effect.  
 \end{enumerate}
