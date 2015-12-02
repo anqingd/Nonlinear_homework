@@ -1,0 +1,122 @@
+\documentclass[a4paper,twocolumn]{article} % Document type
+
+\ifx\pdfoutput\undefined
+    %Use old Latex if PDFLatex does not work
+   \usepackage[dvips]{graphicx}% To get graphics working
+   \DeclareGraphicsExtensions{.eps} % Encapsulated PostScript
+ \else
+    %Use PDFLatex
+   \usepackage[pdftex]{graphicx}% To get graphics working
+   \DeclareGraphicsExtensions{.pdf,.jpg,.png,.mps} % Portable Document Format, Joint Photographic Experts Group, Portable Network Graphics, MetaPost
+   \pdfcompresslevel=9
+\fi
+
+\usepackage{amsmath,amssymb}   % Contains mathematical symbols
+\usepackage[ansinew]{inputenc} % Input encoding, identical to Windows 1252
+\usepackage[english]{babel}    % Language
+%\usepackage[round,authoryear]{natbib}  %Nice author (year) citations
+\usepackage[square,numbers]{natbib}     %Nice numbered citations
+%\bibliographystyle{unsrtnat}           %Unsorted bibliography
+\bibliographystyle{plainnat}            %Sorted bibliography
+
+\addtolength{\topmargin}{-30mm}% Removes 30mm from the top margin
+\addtolength{\textheight}{30mm}% Adds it to the text height
+
+
+\begin{document}               % Begins the document
+
+\title{Homework 2 in EL2620 Nonlinear Control}
+\author{Yuchao Li \\ 910928-4233 \\ yuchao@kth.se \and Anqing Duan\\
+  921224-2714 \\ anqingd@kth.se}
+%\date{2010-10-10}             % If you want to set the date yourself.
+
+\maketitle                     % Generates the title
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Instructions regarding the report
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Problem description}
+\label{sec:prob}
+
+\input{./Contents/Problem.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Example 1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Problem 1 -- Analysis of biological interaction}
+\label{sec:pro1}
+
+\input{./Contents/Pro1.tex}
+
+\section*{Solution 1 -- Analysis of biological interaction}
+\label{sec:sol1}
+
+\input{./Contents/Sol1.tex}
+
+\section*{Problem 2 -- System analysis for different cases}
+\label{sec:prob2}
+
+\input{./Contents/Pro2.tex}
+
+\section*{Solution 2 -- System analysis for different cases}
+\label{sec:solu2}
+
+\input{./Contents/Sol2.tex}
+
+\section*{Problem 3 -- System analysis for one specific case}
+\label{sec:prob3} 
+
+\input{./Contents/Pro3.tex}
+
+\section*{Solution 3 -- System analysis for one specific case}
+\label{sec:solu3}
+
+\input{./Contents/Sol3.tex}
+
+\section*{Problem 4 -- Invariant set and periodic orbit}
+\label{sec:pro4}
+
+\input{./Contents/Pro4.tex}
+
+\section*{Solution 4 -- Invariant set and periodic orbit}
+\label{sec:sol4}
+
+\input{./Contents/Sol4.tex}
+
+\section*{Problem 5 -- Generalize the population model}
+\label{sec:prob5}
+
+\input{./Contents/Pro5.tex} 
+ 
+
+\section*{Solution 5 -- Generalize the population model}
+\label{sec:solu5}
+
+\input{./Contents/Sol5.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The bibliography
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\bibliography{Bibliography_template} %Read the bibliography from a separate file
+\clearpage
+
+\input{./Contents/Fig.tex}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Place your figures and tables at the end of the document starting on a new page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ % Ends the current page and causes all figures and tables to be printed
+
+
+
+
+
+
+\end{document}      % End of the document
