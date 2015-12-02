@@ -1,10 +1,8 @@
 \begin{enumerate}
-  \item The disturbance happens between 
-  \item When $K=0.25$,
-  \begin{enumerate}
-  \item BIBO stability of the closed loop system from $d_in$ to $(\dot{\theta_in},\dot{\theta_out})$ 
-  \item BIBO stability of the closed loop system from $d_in$ to $(\theta_in,\theta_out)$
-  \end{enumerate}
+  \item The disturbance happens between the transfer function $\frac{1}{s+1}$ and the integrator $\frac{1}{s}$, so it is velocity pulse disturbance on the motor. 
+  As we can see in the Backlash block in the Simulink, the parameter deadwidth is set to be $1$. It can be derived that $\Delta=0.5$   
+  \item When $K=0.25$, after running the file \textit{macro}, it seems like that the closed loop system is BIBO stable from $d_in$ to $(\dot{\theta_in},\dot{\theta_out})$. The energy norm of $d_in$ is finite but not infinitely small as well as that of $(\dot{\theta_in}$ and $\dot{\theta_out})$ since they both goes to zero within limited time so the gain $\gamma<\infty$.
+   The closed loop system from $d_in$ to $(\theta_in,\theta_out)$ cannot be BIBO stable. The energy norm of $\theta_in$ is infinite since it stays at $-0.5$ after some time. And the gain $\gamma=\infty$ implies the closed loop system is not BIBO stable.  
   \item Try other controller gains and compare the results with the previous theoretical analysis
   \item Compare the results with the case where there is no back-lash
 \end{enumerate}
