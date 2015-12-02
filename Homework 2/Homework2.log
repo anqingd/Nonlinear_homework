@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.21)  2 DEC 2015 18:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.21)  2 DEC 2015 18:46
 entering extended mode
 **Homework2.tex
 (Homework2.tex
@@ -216,7 +216,7 @@ Underfull \hbox (badness 1348) in paragraph at lines 91--91
 []\OT1/cmr/bx/n/14.4 Problem 5 -- Gen-er-al-ize the
  []
 
-(Contents/Pro5.tex) [3]
+(Contents/Pro5.tex [3])
 Underfull \hbox (badness 1629) in paragraph at lines 97--97
 []\OT1/cmr/bx/n/14.4 Solution 5 -- Gen-er-al-ize the
  []
@@ -256,13 +256,13 @@ Package pdftex.def Info: Plots/p3.png used on input line 35.
 ) [5 <./Plots/-2-1.png> <./Plots/-21.png>] [6 <./Plots/2-1.png> <./Plots/21.png
 >] [7 <./Plots/p3.png>] (Homework2.aux) ) 
 Here is how much of TeX's memory you used:
- 2922 strings out of 493673
- 36006 string characters out of 3143954
- 109275 words of memory out of 3000000
- 6200 multiletter control sequences out of 15000+200000
+ 2921 strings out of 493673
+ 35998 string characters out of 3143954
+ 109267 words of memory out of 3000000
+ 6199 multiletter control sequences out of 15000+200000
  12290 words of font info for 48 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 27i,9n,28p,851b,267s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,9n,28p,851b,265s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmbx10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
@@ -277,7 +277,7 @@ lic/amsfonts/cm/cmr5.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmr7.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
 10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D
 :/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Homework2.pdf (7 pages, 304031 bytes).
+Output written on Homework2.pdf (7 pages, 302369 bytes).
 PDF statistics:
  97 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
