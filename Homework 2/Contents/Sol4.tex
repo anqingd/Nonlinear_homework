@@ -1,24 +1,7 @@
 \begin{enumerate}
-\item If the initial point is $x(0)=C$, $y(0)=0$ where $C$ is any constant, then $y \equiv 0$ for $t \geqslant 0$ since $\dot{y} \equiv 0$ according to \eqref{eqn:PPS2}. This indicates that a trajectory starting on $x-$axis would always stay on $x-$axis. The same analysis can be conducted on solutions with initial points on $y-$axis. Note that the above analysis holds for any values of parameters. Therefore both $x-$ and $y-$axes are always invariant sets.
-\item In this biological context, a solution reaching one axis implies extinction of the other species. Once a species is extincted, its population shall be zero permanently. Hence this is a necessary feature of a population model in order to show the irreversibility of species extinction.
-\item On any orbit of \eqref{eqn:PPS}, we have $\dot{y}dx = \dot{x}dy$. Combine the equation with \eqref{eqn:PPS}, we get the following equation
-$$\frac{y-1}{y} dy + \frac{x-1}{x} dx = 0.$$
-The trajectory is given by taking integration of the equation, which is
-$$x+y-lnx-lny=C,$$
-where $C$ is a constant. Define a function $V:D\to R$  as \eqref{fun:Lya}
-\begin{equation}\label{fun:Lya}
-V(x,y)=x+y-lnx-lny-2
-\end{equation}
-where $D \subseteq R^2$ is positive section of $(x,y)$. Based on above discussion, we have $\dot{V} \equiv 0$. According to solution 3, $(x^\star,y^\star)=(1,1)$ is the only equilibrium in positive section. Denote the Jacobian matrix of $V(x,y)$ at the equilibrium as $A$. Since 
-$$\frac{\partial V}{\partial x}|_{(x^\star,y^\star)} = 0, \quad \frac{\partial V}{\partial y}|_{(x^\star,y^\star)} = 0,$$ 
-$$\frac{\partial^2 V}{\partial x^2}|_{(x^\star,y^\star)} > 0, \quad\quad\, \text{det}(A)>0,$$
-while there is no other stationary point in $D$, $V(x^\star,y^\star)=0$ is global minimum in $D$, which implies that 
-$$V(x,y)>0\; \text{in}\; D-\{(1,1)\}.$$
-According to the continuity of function, for a sufficiently small $\varepsilon > 0$, $\Omega_\varepsilon$ must be a connected component containing $(x^\star,y^\star)$ where $\Omega_\varepsilon$ is defined as
-$$\Omega_\varepsilon=\{\,(x,y) \mid (x,y) \in D, V(x,y) \leqslant \varepsilon\,\}.$$
-Therefore the border of $\Omega_\varepsilon$, which does not contain $(1,1)$ and $(0,0)$ is a closed and bounded trajectory. The orbit function is shown as \eqref{eqn:Tra}.
- \begin{equation} \label{eqn:Tra}
-x+y-lnx-lny-2 = \varepsilon
-\end{equation}
-Note that above discussion has created a Lyapunov function which fulfills all the criteria for local stability. Therefore equilibrium $(1,1)$ is locally stable.
+\item In order to conclude BIBO stability from the Small Gain Theorem, it is required that both BL and $G(s)$ are BIBO stable. However, $\gamma(G)=\underset{u \in \ell_2}{sup}\frac{\|Gu\|_2}{\|u\|_2}=\underset{\omega \in (0,\infty)}{sup}|G(i\omega)|=\infty$ when $\omega \rightarrow 0$. The Small Gain Theorem does not hold in this case.
+
+For the Passivity Theorem, the closed loop is BIBO stable if BL is strictly passive and $G(s)$ is passive. Since $ReG(i\omega)=-\frac{KT\omega^2}{T^2\omega^4+\omega^2}<0$ for $\forall \omega > 0$, $G(s)$ is not passive. The Passivity Theorem can not be concluded.    
+\item As derived in Solution 2, BL can be bounded by a sector $[k_1,k_2]=[0,1]$. The Circle Criterion can lead to BIBO stability if the Nyquist curve of $G(s)$ does not encircle or intersect the circle defined by the points $-1/k_1$ and $-1/k_2$. After analysing the Nyquist curve of $G(s)$, we require $-K >-1/k_2$ which gives $0<K<1$.  
+
 \end{enumerate}
